@@ -1,0 +1,37 @@
+package mySelfProgramming;
+
+import java.util.Scanner;
+
+class SwitchStatement1 {
+
+	public static void main(String[] args) {
+		/*Using the switch statement, one can select only one option from more number of options very easily. 
+		 In the switch statements, its provide a value that is to be compared with a value associated with each option.*/
+		 
+		
+		Scanner in = new Scanner(System.in);
+		System.out.print("Press any integer : ");
+		
+		int value = in.nextInt();
+		/* Whenever the given value matches the value associated with an option, the execution starts from that option. 
+		 * In the switch statement, every option is defined as a case.*/
+
+		switch( value )
+		   {
+		   	case 0: System.out.println("ZERO") ; break ;
+		   	case 1: System.out.println("ONE") ; break ;
+		   	case 2: System.out.println("TWO") ; break ;
+		   	case 3: System.out.println("THREE") ; break ;
+		   	case 4: System.out.println("FOUR") ; break ;
+		   	case 5: System.out.println("FIVE") ; break ;
+		   	case 6: System.out.println("SIX") ; break ;
+		   	case 7: System.out.println("SEVEN") ; break ;
+		   	case 8: System.out.println("EIGHT") ; break ;
+		   	case 9: System.out.println("NINE") ; break ;
+		   	default: System.out.println("Not a Digit") ;
+		   }
+		
+
+	}
+
+}
