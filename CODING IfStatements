@@ -1,0 +1,21 @@
+package mySelfProgramming;
+
+import java.util.Scanner;
+
+class IfStatement {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.print("Enter any number: ");
+		int num = in.nextInt();
+		
+		if((num % 5) == 0) {
+			System.out.println("We are inside the if-block!");
+			System.out.println("Given number is divisible by 5!!");
+		}
+		
+		
+
+	}
+
+}
