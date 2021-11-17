@@ -1,0 +1,5 @@
+num1|num2 = true
+num1&num2 = false
+num1^num2 = true
+!num1 = false
+!num2 = true
