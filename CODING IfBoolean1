@@ -1,0 +1,28 @@
+package mySelfProgramming;
+
+import java.util.Scanner;
+
+class IfBoolean {
+
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		
+		int x,mod;
+		System.out.print("Enter a number : ");
+		x=in.nextInt();
+		
+		boolean Divisible;
+		
+		System.out.print("It is divisible with 7? (true/false)");
+		Divisible=in.nextBoolean();
+		
+		mod=x%7;
+		
+		if(mod==0)
+			System.out.print("Yes it is " +Divisible);
+		else
+			System.out.print("No it is " + !Divisible);
+
+	}
+
+}
